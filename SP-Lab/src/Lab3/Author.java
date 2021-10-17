@@ -7,6 +7,11 @@ public class Author {
         this.name = name;
         this.surname = surname;
     }
+
+    public Author(String radu_pavel_gheo) {
+
+    }
+
     public void print(){
         System.out.println("Name of the author: " + this.name + " " + this.surname);
     }
