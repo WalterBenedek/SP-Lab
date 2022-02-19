@@ -4,6 +4,8 @@ public class Salata implements Produs {
     private String dressing;
 
 
-    public void accept(Visitor visitor) {
-        visitor.calculatePriceSalata(this);}
+    public double accept(Visitor visitor) {
+        visitor.calculatePriceSalata(this);
+        return 0;
+    }
 }
